@@ -1,0 +1,79 @@
+/*!--!NavBar--*/
+.logo {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 40px;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  color: rgb(125, 117, 117);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar ul {
+  height: 60px;
+  display: flex;
+}
+.navbar ul li {
+  /* height: 60px; */
+  list-style: none;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(125, 117, 117);
+  display: inline-block;
+  margin: 20px;
+  transition: 1s;
+}
+
+.navbar ul li:hover {
+  /* background-color: grey; */
+  color: rgb(228, 4, 33);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*!--!Carrito--*/
+
+.cartwidget {
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(125, 117, 117);
+  margin: 0 40px;
+}
+
+.cartwidget:hover {
+  /* background-color: rgb(228, 4, 33); */
+  cursor: pointer;
+}
+
+.cartwidget img {
+  width: 30px;
+  height: 30px;
+}
+
+.cartwidget p {
+  margin: 0 5px;
+}
+
+/*!--!Titulo--*/
+.titulo {
+  font-size: 25px;
+  color: rgb(228, 4, 33);
+  text-align: center;
+  margin-top: 10px;
+  background-color: black;
+}

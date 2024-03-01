@@ -3,9 +3,9 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 
 const CartWidget = () => {
   return (
-    <div>
+    <div className="cartwidget">
       <span>5</span>
-      <HiOutlineShoppingCart color="rgb(235, 15, 15)"/>
+      <HiOutlineShoppingCart />
     </div>
   )
 }

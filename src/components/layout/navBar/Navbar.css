@@ -47,7 +47,7 @@
 
 .cartwidget {
   width: 70px;
-  height: 60px;
+  height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,13 +56,14 @@
 }
 
 .cartwidget:hover {
-  /* background-color: rgb(228, 4, 33); */
   cursor: pointer;
 }
 
+/*!--!Carrito compra--*/
+
 .cartwidget img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 
 .cartwidget p {
@@ -76,4 +77,5 @@
   text-align: center;
   margin-top: 10px;
   background-color: black;
+  padding: 10px;
 }

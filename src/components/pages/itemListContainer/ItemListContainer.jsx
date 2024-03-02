@@ -30,5 +30,3 @@ export const ItemListContainer = () => {
         </>
     )
 }
-
-{/* <h2>Cargando productos...</h2> */ }

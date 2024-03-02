@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { getProducts } from "../../../asyncMock";
 import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
+import { MoonLoader } from "react-spinners";
 
 export const ItemListContainer = () => {
     const { category } = useParams();
@@ -25,7 +26,9 @@ export const ItemListContainer = () => {
     }, [category]);
     return (
         <>
-            {isLoading ? <h2>Cargando productos...</h2> : <ItemList products={products} />}
+            {isLoading ? <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }} > <MoonLoader /> </div> : <ItemList products={products} />}
         </>
     )
 }
+
+{/* <h2>Cargando productos...</h2> */ }

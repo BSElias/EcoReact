@@ -1,6 +1,6 @@
 
 import { Button } from "@mui/material";
-const ItemCount = ({ counter, addOne, subOne }) => {
+const ItemCount = ({ counter, addOne, subOne, onAdd }) => {
     return (
         <>
             <div style={{ marginBottom: "10px", display: "Flex", gap: "10px", }}>
@@ -8,7 +8,7 @@ const ItemCount = ({ counter, addOne, subOne }) => {
                 <h3>{counter}</h3>
                 <Button variant="outline-dark" onClick={subOne} disabled={counter === 1 ? true : false}>Eliminar</Button>
 
-                <Button variant="outline-dark" > Agregar al carrito </Button>
+                <Button variant="outline-dark" onClick={() => onAdd(counter)} > Agregar al carrito </Button>
             </div>
         </>
     )

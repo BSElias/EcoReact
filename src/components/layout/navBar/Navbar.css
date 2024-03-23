@@ -26,7 +26,6 @@
   display: flex;
 }
 .navbar ul li {
-  /* height: 60px; */
   list-style: none;
   font-size: 18px;
   text-decoration: none;
@@ -37,7 +36,6 @@
 }
 
 .navbar ul li:hover {
-  /* background-color: grey; */
   color: rgb(228, 4, 33);
   transform: scale(1.1);
   cursor: pointer;
@@ -58,8 +56,6 @@
 .cartwidget:hover {
   cursor: pointer;
 }
-
-/*!--!Carrito compra--*/
 
 .cartwidget img {
   width: 35px;

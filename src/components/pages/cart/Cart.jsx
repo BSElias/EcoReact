@@ -25,7 +25,7 @@ export const Cart = () => {
                 clearCart()
                 Swal.fire("Limpiado!", "", "success");
             } else if (result.isDenied) {
-                Swal.fire("El carrito queda como estaba", "", "info");
+                Swal.fire("El carrito quedo como estaba", "", "info");
             }
         });
 
@@ -53,18 +53,18 @@ export const Cart = () => {
                     <h3>Precio final: </h3>
 
                     {cart.length > 0 ? (
-                        <div>
-                            <Button onClick={limpiarConAlerta} variant="contained" size="small">
+                        <div className="btn-cart">
+                            <Button onClick={limpiarConAlerta} variant="contained" >
                                 Limpiar carrito
                             </Button>
 
                             <Link to="/checkout">
-                                <Button variant="contained" size="small">Terminar compra</Button>
+                                <Button variant="contained" >Terminar compra</Button>
                             </Link>
                         </div>
                     ) : (
                         <Link to="/">
-                            <Button variant="contained" size="small">Agregar productos</Button>
+                            <Button variant="contained" >Agregar productos</Button>
                         </Link>
                     )}
 

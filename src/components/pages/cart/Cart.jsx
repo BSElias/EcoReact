@@ -42,7 +42,7 @@ export const Cart = () => {
                         <h2>Nombre:{product.title}</h2>
                         <h2>${product.price}</h2>
                         <h2>Cantidad:{product.quantity}</h2>
-                        <Button onClick={() => removeById(product.id)} variant="contained" size="small">Eliminar</Button>
+                        <Button onClick={() => removeById(product.id)} variant="contained" color="error">Eliminar</Button>
                     </div>
                 ))}
 
@@ -53,18 +53,18 @@ export const Cart = () => {
                     <h3>Precio final: </h3>
 
                     {cart.length > 0 ? (
-                        <div className="btn-cart">
-                            <Button onClick={limpiarConAlerta} variant="contained" >
+                        <div className="button-cart">
+                            <Button onClick={limpiarConAlerta} variant="contained" color="error" >
                                 Limpiar carrito
                             </Button>
 
                             <Link to="/checkout">
-                                <Button variant="contained" >Terminar compra</Button>
+                                <Button variant="contained" color="error" >Terminar compra</Button>
                             </Link>
                         </div>
                     ) : (
                         <Link to="/">
-                            <Button variant="contained" >Agregar productos</Button>
+                            <Button variant="contained" color="error">Agregar productos</Button>
                         </Link>
                     )}
 

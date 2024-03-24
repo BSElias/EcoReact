@@ -56,13 +56,13 @@
   font-size: 18px;
   color: rgb(125, 117, 117);
 }
-.btn-cart {
+.button-cart {
   display: flex;
   width: 100%;
   gap: 20px;
   justify-content: center;
 }
 
-.btn-cart > button {
-  width: 50px;
+.button-cart > button {
+  width: 100px;
 }

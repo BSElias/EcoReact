@@ -1,6 +1,9 @@
 import { Route, Routes } from "react-router-dom"
 import { routes } from "./routes"
 import { Layout } from "../components/layout/Layout"
+import Error from "../components/pages/error/Error";
+
+
 
 
 

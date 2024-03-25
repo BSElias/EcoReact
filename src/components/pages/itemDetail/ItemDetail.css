@@ -1,0 +1,43 @@
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-d {
+  max-width: 600px;
+  width: 100%;
+}
+
+.card-d {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-body-d {
+  padding: 20px;
+}
+
+.title-d {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.image-d {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.text-d {
+  margin-bottom: 10px;
+}
+
+.precio-d {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

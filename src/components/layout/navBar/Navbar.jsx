@@ -8,7 +8,7 @@ import "./Navbar.css";
 
 export const Navbar = () => {
     return <div className="navbar">
-        <Link to="/"><img className="logo" src="https://motos.honda.com.ar/assets/honda-motos-logo-8228287956be08ac306e59b11dfcfe9e.png" alt="logo" /> </Link>
+        <Link to="/"><img className="logo" src="https://motos.honda.com.ar/assets/honda-motos-logo-8228287956be08ac306e59b11dfcfe9e.png" alt="logo honda" /> </Link>
         <ul>
             <Link to="/"> <li>Todas</li> </Link>
             <Link to="/category/Supersport"> <li>Supersport</li> </Link>

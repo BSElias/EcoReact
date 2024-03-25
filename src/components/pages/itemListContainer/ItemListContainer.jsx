@@ -15,18 +15,6 @@ export const ItemListContainer = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        // setIsLoading(true);
-        // getProducts()
-        //     .then(resp => {
-        //         if (category) {
-        //             const productsFilter = resp.filter(product => product.category === category);
-        //             setProducts(productsFilter);
-        //         } else {
-        //             setProducts(resp);
-        //         }
-
-        //         setIsLoading(false)
-        //     });
 
         let productsCollection = collection(db, "products");
         let consulta = productsCollection;
